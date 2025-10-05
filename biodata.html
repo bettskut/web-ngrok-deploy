@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata - Elberth</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0073aa, #00aaff);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 900px;
+      background: #fff;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    .profile-header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .profile-header img {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: top;
+      border: 5px solid #fff;
+      box-shadow: 0 0 20px rgba(0,115,170,0.7);
+      transition: transform 0.4s;
+    }
+
+    .profile-header img:hover {
+      transform: scale(1.08) rotate(2deg);
+    }
+
+    h1 {
+      margin: 15px 0 5px;
+      color: #0073aa;
+      font-size: 30px;
+    }
+
+    h3 {
+      color: #555;
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+
+    .bio-section {
+      margin-bottom: 25px;
+      padding: 20px;
+      background: #f0f9ff;
+      border-left: 6px solid #0073aa;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .bio-section:hover {
+      background: #e6f6ff;
+      transform: scale(1.02);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .bio-section h2 {
+      margin: 0 0 10px;
+      color: #0073aa;
+      font-size: 22px;
+    }
+
+    .bio-section p {
+      line-height: 1.6;
+      color: #333;
+      margin: 5px 0;
+    }
+
+    .timeline {
+      position: relative;
+      margin: 20px 0;
+      padding-left: 20px;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 10px;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: #0073aa;
+      border-radius: 5px;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 20px;
+      padding-left: 30px;
+    }
+
+    .timeline-item::before {
+      content: "🎓";
+      position: absolute;
+      left: -2px;
+      top: 0;
+      font-size: 18px;
+      color: #0073aa;
+    }
+
+    .timeline-item h4 {
+      margin: 0;
+      color: #0073aa;
+      font-size: 18px;
+    }
+
+    .timeline-item span {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .social-links {
+      text-align: center;
+      margin-top: 25px;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin: 8px;
+      padding: 12px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      background: linear-gradient(45deg, #0073aa, #00aaff);
+      color: white;
+      font-weight: bold;
+      transition: all 0.4s ease;
+      box-shadow: 0 4px 12px rgba(0,115,170,0.3);
+    }
+
+    .social-links a:hover {
+      background: linear-gradient(45deg, #005f87, #0088cc);
+      transform: translateY(-4px) scale(1.05);
+      box-shadow: 0 8px 20px rgba(0,115,170,0.5);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile-header">
+      <img src="c:\Users\hp\Pictures\Rizki Photo-1477 4x6.jpg" alt="Profile Photo">
+      <h1>Elberth Profile</h1>
+      <h3>Information Technology Student at Telkom University | 
+        Enthusiast in System Administration, Networking, Cybersecurity & Go Programming Language</h3>
+    </div>
+
+    <div class="bio-section">
+      <h2>About Me</h2>
+      <p>As an Information Technology student, I have a strong interest in pursuing a career in the IT field, 
+        especially in cybersecurity and computer networks. I am eager to keep learning and improving my skills 
+        to become a reliable professional in this field.</p>
+    </div>
+
+    <div class="bio-section">
+      <h2>General Information</h2>
+      <p><b>Name:</b> Elberth Natan Pratama Limbong</p>
+      <p><b>Institution:</b> Information Technology - Telkom University</p>
+      <p><b>Address:</b> Bekasi, West Java</p>
+    </div>
+
+    <div class="bio-section">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h4>Telkom University</h4>
+          <span>2024 - Present | Bachelor of Information Technology</span>
+        </div>
+        <div class="timeline-item">
+          <h4>SMA Negeri 2 Kota Bekasi</h4>
+          <span>2021 - 2024 | Mathematics & Natural Science</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="bio-section">
+      <h2>Contact Me</h2>
+      <div class="social-links">
+        <a href="https://www.instagram.com/elberthlimbong?igsh=MTlkcWx5bjI4MWh1Mg==" target="_blank">🌐 Instagram</a>
+        <a href="https://www.linkedin.com/in/elberth-natan-pratama-limbong/" target="_blank">💼 LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
