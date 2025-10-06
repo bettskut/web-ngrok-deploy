@@ -28,6 +28,5 @@ curl -I http://localhost
 ```bash
 ngrok http 80
 
-# Jika berhasil maka terminal akan menampilkan URL:
-Forwarding https://xxxx-xxxx-xxxx.ngrok-free.app -> http://localhost:80
+# Jika berhasil maka terminal akan menampilkan URL: Forwarding https://xxxx-xxxx-xxxx.ngrok-free.app -> http://localhost:80
 ```
