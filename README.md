@@ -6,7 +6,6 @@ A simple web project with deployment using Ngrok
 ```bash
 sudo snap install ngrok
 ```
-(C:\Users\hp\Pictures\Screenshots)
 2. Tambahkan Authtoken:
 ```bash
 ngrok config add-authtoken <TOKEN>
